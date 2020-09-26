@@ -65,15 +65,15 @@ public class LinkedList_I
 	{
 		LinkedList_I list= new LinkedList_I();
 
-		list.insertion(list,1);
-		list.insertion(list,2);
-		list.insertion(list,3);
-		list.insertion(list,4);
-		list.insertion(list,5);
-		list.insertion(list,6);
-		list.insertion(list,7);
-		list.insertion(list,8);
-		list.insertion(list,9);
+		list=insertion(list,1);
+		list=insertion(list,2);
+		list=insertion(list,3);
+		list=insertion(list,4);
+		list=insertion(list,5);
+		list=insertion(list,6);
+		list=insertion(list,7);
+		list=insertion(list,8);
+		list=insertion(list,9);
 
 		printing(list);
 	}
