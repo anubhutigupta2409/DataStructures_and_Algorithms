@@ -29,6 +29,7 @@ public class LinkedList_I
 		Node newNode= new Node(data);
 		newNode.next = null;//since it is going to be the latest Node
 		//if the list is empty
+		//to prevent the null pointer exception
 		if(list.head==null)
 			list.head=newNode;
 
