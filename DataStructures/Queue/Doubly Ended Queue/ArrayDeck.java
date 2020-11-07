@@ -3,6 +3,7 @@ ArrayDeque=array doubly ended queue, it is a concept which allows the removal an
 of the queue, using an array, hence introduces the concept of resizable arrays.
 
 It's Features=
+
 1. Array Deques are not capacity bounded
 2. Array deques are not thread safe
 3. They are faster than stacks when used as stacks and faster than linked list when used as queue
