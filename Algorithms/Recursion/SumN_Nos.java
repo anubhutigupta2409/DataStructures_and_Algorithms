@@ -6,6 +6,7 @@ import java.util.*;
 
 public class SumN_Nos
 {
+	
 	static int sum(int n)
 	{
 		//base case
