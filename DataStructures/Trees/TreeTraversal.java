@@ -2,7 +2,7 @@
 //for example the java compiler checks the operator priority through pre-order traversal of the tree
 //----> Sample Tree
 /*
-		2
+	2
        / \
       4   1
      /	 / \
