@@ -10,8 +10,8 @@
 //here's how to develop the above approach in the code
 /*
 
-			18 {1,5,7}
-			  /   |   \
+	    18 {1,5,7}
+              /   |   \
           (1)/ (5)| (7)\		<---(used coin in brackets)
             /     |     \
            17     13     11		<---(subtracting to get the left money)
