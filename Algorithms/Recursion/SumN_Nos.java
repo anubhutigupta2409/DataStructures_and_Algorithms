@@ -14,7 +14,7 @@ public class SumN_Nos
 			return 1;
 		//generalise
 		else
-			return n+ sum(n-1);//sum(5)=sum(4)+1 <-- Example
+			return n+ sum(n-1);//sum(5)=sum(4)+5 <-- Example
 
 		//you can ask that how we came to knw the value of sum(4)--> but we say ,assume we knw its value-->that's called
 		//recursive leap of faith
