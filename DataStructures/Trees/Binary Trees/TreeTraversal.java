@@ -9,7 +9,7 @@
     7   8   3
 */
 //--> doing traversals manually
-//--> PreOrder Traversal (Depth First Search)
+//--> PreOrder Traversal 
 /*
 -->Follows Node(means now perform on the operation on the current node, example(printing)) Left Right
 -->2 4 7 1 8 3
@@ -19,7 +19,7 @@
 -->Follows Left Node Right
 -->7 4 2 8 1 3
 */
-//--> PostOrder Traversal (Breadth First Search)
+//--> PostOrder Traversal 
 /*
 -->Follows Left Right Node
 -->7 4 8 3 1 2
