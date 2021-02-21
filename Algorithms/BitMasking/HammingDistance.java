@@ -3,7 +3,7 @@ hamming distance is basically the number of bits we would have to change to conv
 Example-->
 if a = 1 0 1 1 0
    b = 1 1 0 1 1
-   		 ^ ^   ^
+   	 ^ ^   ^
 
    therefore, distance = 3
 
