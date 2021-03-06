@@ -46,3 +46,6 @@ public class StringPalindrome
 			System.out.println("Not a Palindrome!");
 	}
 }
+/*
+Time complexity == O(n)
+*/
