@@ -4,16 +4,16 @@
 --> logic
 
 (i) a b c b a --> a b c b a --> a b c b a
-	^       ^		^	^			^
-	|     	|		|	|			|
-	L		R	   L+1 R-1		   (L==R)--> return yes
-	(check if the characters at the two pointer positions are equal then move inside)
+    ^       ^	    ^	^	    ^
+    |       |	    |	|	    |
+    L	    R	   L+1 R-1	(L==R)--> return yes
+    (check if the characters at the two pointer positions are equal then move inside)
 
 (ii)a --> (L==R) --> return yes
 (iii)a b b a --> a b b a --> a b b a
-	 ^	   ^	   ^ ^		   ^ ^
-	 |	   |  	   | |         | |
-	 L	   R       L R         R L  (L>R)--> return yes
+     ^	   ^       ^ ^         ^ ^
+     |     |       | |	       | |
+     L     R       L R         R L	(L>R) --> return yes
 */
 
 import java.util.*;
