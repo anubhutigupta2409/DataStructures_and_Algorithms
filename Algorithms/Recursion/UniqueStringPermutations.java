@@ -3,7 +3,7 @@ Print only the unique out of all possible permutations of an input string
 _________________
 Example-->
 
-abc--> a-bc	a-cb
+abc-->     a-bc	a-cb
 	   b-ac b-ca
 	   c-ba c-ab
 
