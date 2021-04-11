@@ -9,8 +9,8 @@ Heap can be Max or Min Heap-->
 Making of heap from a given set of values is called heapifying those values.
 1. we should know that the array representation of a final heap is nothing but the level order traversal of the tree
 2. to heapify, we start from the leaf nodes and start heapifying them till required(that is if we are making max heap, we will
-check if the current node we are working on is less than its paent or not, if not we swap the parent node, with it's larger
-parent, and we keep on doing the process till required)
+check if the current node we are working on is less than its parent or not, if not we swap the parent node, with it's larger
+child, and we keep on doing the process till required)
 3.to optimise the above approach we notice that we need to start heapifying from the last non-leaf node and not the leaf nodes
 (Tracking the last non-leaf node-->)
 =parent of the last leaf node=parent of node at (n-1)th index=node at ((n-1) - 1) / 2 th index = mode at (n/2) - 1 th index
