@@ -1,6 +1,6 @@
 /*
 A complete binary tree, where every node has a child and the leaf nodes are set as left as possible. Such a property makes a tree
-to be able to be represented as an array too, that is it's level order traversal.
+to be able to be represented as an array too, that is it's level order traversal. this is beacause array based epsentation is space efficient.
 
 Heap can be Max or Min Heap-->
 1.Max Heap= if i is the node of a heap than such that A[parent(i)] > A[i]
