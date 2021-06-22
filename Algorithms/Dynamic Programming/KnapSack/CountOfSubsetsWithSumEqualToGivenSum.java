@@ -58,6 +58,6 @@ class CountOfSubsetsWithSumEqualToGivenSum{
 
         }
 
-        return dp[n][sum]
+        return dp[n][sum];
     }
 }
