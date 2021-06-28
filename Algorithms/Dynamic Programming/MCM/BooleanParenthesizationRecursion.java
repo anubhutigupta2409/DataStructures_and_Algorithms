@@ -95,10 +95,7 @@ class BooleanParenthesizationRecursion{
     }
     static int countWays(int N, String S){
         // code here
-        int dp[][] = new int[N][N];
-
-        for(int x[] : dp)
-            Arrays.fill(x,-1);
+       
         return util(S, 0, N-1 , true);
     }
 }
