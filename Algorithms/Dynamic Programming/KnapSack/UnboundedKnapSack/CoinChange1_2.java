@@ -1,15 +1,14 @@
 class CoinChange1_2
 {
-    public long count(int S[], int m, int n) 
+    public long count(int coin[], int sum) 
     { 
         //code here.
-        long dp[] = new long[n+1];
-        Arrays.fill(dp,0);
+        long dp[] = new long[sum+1];
         dp[0]=1;
         
-        for(int i=0; i<m; i++) 
-		    for(int j=S[i]; j<=n; j++) 
-			    dp[j] += dp[j-S[i]]; 
-        return dp[n];
+        for(int i=0; i<coin.length; i++) 
+		    for(int j=coin[i]; j<=sum; j++) 
+			    dp[j] += dp[j-coin[i]]; 
+        return dp[sum];
     } 
 }
