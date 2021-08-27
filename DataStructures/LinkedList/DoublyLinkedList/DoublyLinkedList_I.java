@@ -1,6 +1,6 @@
 /*
 Doubly Linked List(DLL)
-Very similar to Singly Linged List, but instead has a pointer pointing to the previous node as well.
+Very similar to Singly Linked List, but instead has a pointer pointing to the previous node as well.
 Advantages over Singly Linked List-
 1. we can traverse the linked list, both from forward and backward positions
 2. the deletion and insertion operations become more efficient
