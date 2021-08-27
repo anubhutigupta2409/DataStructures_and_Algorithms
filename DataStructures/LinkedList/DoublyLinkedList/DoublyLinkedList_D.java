@@ -1,4 +1,4 @@
-//implemeting deletion od a node from a DLL
+//implemeting deletion of a node from a DLL
 //the element to be deleted may be the head, node other than head or some node which doesn't exist only
 
 import java.util.*;
